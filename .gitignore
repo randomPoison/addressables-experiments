@@ -7,6 +7,8 @@
 Assets/AssetStoreTools*
 AssetBundles/
 SbpAssetBundles/
+ServerData/
+Assets/AddressableAssetsData/Windows*
 
 # Visual Studio cache directory
 .vs/

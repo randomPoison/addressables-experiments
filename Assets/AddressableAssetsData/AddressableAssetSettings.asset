@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: AddressableAssetSettings
   m_EditorClassIdentifier: 
   m_DefaultGroup: 93af7ff9f52dbc846ad9c58f8173231b
-  m_BuildRemoteCatalog: 0
+  m_BuildRemoteCatalog: 1
   m_BundleLocalCatalog: 0
   m_DisableCatalogUpdateOnStart: 0
   m_UniqueBundleIds: 0
   m_maxConcurrentWebRequests: 500
   m_ContiguousBundles: 0
   m_RemoteCatalogBuildPath:
-    m_Id: 
+    m_Id: a8d6db07f00ce384b9ac77c81799a76d
   m_RemoteCatalogLoadPath:
-    m_Id: 
+    m_Id: a84df808cbfe16943b7f489f0d6d9598
   m_overridePlayerVersion: 
   m_GroupAssets:
   - {fileID: 11400000, guid: 999abdf79a8463a4ebb249dc0d1a7bfa, type: 2}
@@ -105,11 +105,11 @@ MonoBehaviour:
         m_SerializedData:
         - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
           m_ClassName: System.Int32
-          m_Data: 57716
+          m_Data: 50542
           m_Key: HostingServicePort
         - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
           m_ClassName: System.String
-          m_Data: Library/com.unity.addressables/aa/Windows/StandaloneWindows
+          m_Data: ServerData/StandaloneWindows;Library/com.unity.addressables/aa/Windows/StandaloneWindows
           m_Key: ContentRoot
         - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
           m_ClassName: System.Boolean

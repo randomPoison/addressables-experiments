@@ -18,7 +18,7 @@ public class LoadAssetsTest : MonoBehaviour
             }
             else
             {
-                Debug.LogException(handle.OperationException);
+                Debug.LogError("Failed to download all assets ;__;");
             }
         };
     }
