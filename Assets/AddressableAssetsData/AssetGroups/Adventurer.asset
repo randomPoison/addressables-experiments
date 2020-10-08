@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Adventurer
+  m_EditorClassIdentifier: 
+  m_GroupName: Adventurer
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 3625aad862bcf8f4f9446bef8339aa24
+  m_SerializeEntries:
+  - m_GUID: 0540d0386fff05a41b4cbbc1c22722c1
+    m_Address: adventurer-attack1-01.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 2800000, guid: 0540d0386fff05a41b4cbbc1c22722c1, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 0540d0386fff05a41b4cbbc1c22722c1, type: 3}
+  - m_GUID: 93c85d1ba9cdeb740a81f9a6cca14aa2
+    m_Address: adventurer-attack1-00.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 2800000, guid: 93c85d1ba9cdeb740a81f9a6cca14aa2, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 93c85d1ba9cdeb740a81f9a6cca14aa2, type: 3}
+  - m_GUID: 829d226c52920934197383b4b973ab39
+    m_Address: adventurer-attack1-03.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 2800000, guid: 829d226c52920934197383b4b973ab39, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 829d226c52920934197383b4b973ab39, type: 3}
+  - m_GUID: fd34ce2d2491f7d4cb9636137424c0ec
+    m_Address: adventurer-attack1-04.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 2800000, guid: fd34ce2d2491f7d4cb9636137424c0ec, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: fd34ce2d2491f7d4cb9636137424c0ec, type: 3}
+  - m_GUID: 7450000e6f3ea444ab0693c0c03c04af
+    m_Address: adventurer-attack1-02.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 2800000, guid: 7450000e6f3ea444ab0693c0c03c04af, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 7450000e6f3ea444ab0693c0c03c04af, type: 3}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: ea004ea33642ee74dbf652489d5f469c, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: b33b02b985b20f543ab040e3a089c53d, type: 2}
+    - {fileID: 11400000, guid: 3f7c6f6048dd346469851df22a717fc7, type: 2}
