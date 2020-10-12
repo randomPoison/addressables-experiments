@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Prefabs
+  m_EditorClassIdentifier: 
+  m_GroupName: Prefabs
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 6132ef7ae97445f4a9b5ae36b7f5fadc
+  m_SerializeEntries:
+  - m_GUID: 508a4633b1103e14fa86f384651b5771
+    m_Address: Attack1-00
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 8902226209732853496, guid: 508a4633b1103e14fa86f384651b5771,
+      type: 3}
+    m_TargetAsset: {fileID: 8902226209732853496, guid: 508a4633b1103e14fa86f384651b5771,
+      type: 3}
+  - m_GUID: 9f9fa3ccdead6ca48ad9043134320021
+    m_Address: Attack1-01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 8902226209732853496, guid: 9f9fa3ccdead6ca48ad9043134320021,
+      type: 3}
+    m_TargetAsset: {fileID: 8902226209732853496, guid: 9f9fa3ccdead6ca48ad9043134320021,
+      type: 3}
+  - m_GUID: 46358ddcda332014d8362b3089b9e3b9
+    m_Address: Attack1-02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 8902226209732853496, guid: 46358ddcda332014d8362b3089b9e3b9,
+      type: 3}
+    m_TargetAsset: {fileID: 8902226209732853496, guid: 46358ddcda332014d8362b3089b9e3b9,
+      type: 3}
+  - m_GUID: 1369d86fbacc38d4a8ebfb43c26a0a07
+    m_Address: Attack1-03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 8902226209732853496, guid: 1369d86fbacc38d4a8ebfb43c26a0a07,
+      type: 3}
+    m_TargetAsset: {fileID: 8902226209732853496, guid: 1369d86fbacc38d4a8ebfb43c26a0a07,
+      type: 3}
+  - m_GUID: bf97dd3e07641b14caec527dcaaec720
+    m_Address: Attack1-04
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 8902226209732853496, guid: bf97dd3e07641b14caec527dcaaec720,
+      type: 3}
+    m_TargetAsset: {fileID: 8902226209732853496, guid: bf97dd3e07641b14caec527dcaaec720,
+      type: 3}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: ea004ea33642ee74dbf652489d5f469c, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: bc18ebd9a28304b419245a9250021a6d, type: 2}
+    - {fileID: 11400000, guid: f079330d89d688d4593bcecf2a2030bd, type: 2}
