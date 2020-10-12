@@ -17,36 +17,12 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 3625aad862bcf8f4f9446bef8339aa24
   m_SerializeEntries:
-  - m_GUID: 0540d0386fff05a41b4cbbc1c22722c1
-    m_Address: adventurer-attack1-01
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 2800000, guid: 0540d0386fff05a41b4cbbc1c22722c1, type: 3}
-    m_TargetAsset: {fileID: 2800000, guid: 0540d0386fff05a41b4cbbc1c22722c1, type: 3}
   - m_GUID: 93c85d1ba9cdeb740a81f9a6cca14aa2
     m_Address: adventurer-attack1-00
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 2800000, guid: 93c85d1ba9cdeb740a81f9a6cca14aa2, type: 3}
     m_TargetAsset: {fileID: 2800000, guid: 93c85d1ba9cdeb740a81f9a6cca14aa2, type: 3}
-  - m_GUID: 829d226c52920934197383b4b973ab39
-    m_Address: adventurer-attack1-03
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
-  - m_GUID: fd34ce2d2491f7d4cb9636137424c0ec
-    m_Address: adventurer-attack1-04
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 2800000, guid: fd34ce2d2491f7d4cb9636137424c0ec, type: 3}
-    m_TargetAsset: {fileID: 2800000, guid: fd34ce2d2491f7d4cb9636137424c0ec, type: 3}
-  - m_GUID: 7450000e6f3ea444ab0693c0c03c04af
-    m_Address: adventurer-attack1-02
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 2800000, guid: 7450000e6f3ea444ab0693c0c03c04af, type: 3}
-    m_TargetAsset: {fileID: 2800000, guid: 7450000e6f3ea444ab0693c0c03c04af, type: 3}
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: ea004ea33642ee74dbf652489d5f469c, type: 2}
   m_SchemaSet:

@@ -25,38 +25,6 @@ MonoBehaviour:
       type: 3}
     m_TargetAsset: {fileID: 8902226209732853496, guid: 508a4633b1103e14fa86f384651b5771,
       type: 3}
-  - m_GUID: 9f9fa3ccdead6ca48ad9043134320021
-    m_Address: Attack1-01
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 8902226209732853496, guid: 9f9fa3ccdead6ca48ad9043134320021,
-      type: 3}
-    m_TargetAsset: {fileID: 8902226209732853496, guid: 9f9fa3ccdead6ca48ad9043134320021,
-      type: 3}
-  - m_GUID: 46358ddcda332014d8362b3089b9e3b9
-    m_Address: Attack1-02
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 8902226209732853496, guid: 46358ddcda332014d8362b3089b9e3b9,
-      type: 3}
-    m_TargetAsset: {fileID: 8902226209732853496, guid: 46358ddcda332014d8362b3089b9e3b9,
-      type: 3}
-  - m_GUID: 1369d86fbacc38d4a8ebfb43c26a0a07
-    m_Address: Attack1-03
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 8902226209732853496, guid: 1369d86fbacc38d4a8ebfb43c26a0a07,
-      type: 3}
-    m_TargetAsset: {fileID: 8902226209732853496, guid: 1369d86fbacc38d4a8ebfb43c26a0a07,
-      type: 3}
-  - m_GUID: bf97dd3e07641b14caec527dcaaec720
-    m_Address: Attack1-04
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 8902226209732853496, guid: bf97dd3e07641b14caec527dcaaec720,
-      type: 3}
-    m_TargetAsset: {fileID: 8902226209732853496, guid: bf97dd3e07641b14caec527dcaaec720,
-      type: 3}
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: ea004ea33642ee74dbf652489d5f469c, type: 2}
   m_SchemaSet:
