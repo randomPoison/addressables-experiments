@@ -8,41 +8,28 @@ public class LoadAssetsTest : MonoBehaviour
 {
     public void Start()
     {
-        var allKeys = Addressables
-            .ResourceLocators
-            .SelectMany(locator => locator.Keys);
-        Addressables.DownloadDependenciesAsync(allKeys, Addressables.MergeMode.Union).Completed += handle =>
+        Addressables.LoadAssetAsync<Sprite>("adventurer-attack1-00").Completed += handle =>
         {
             if (handle.Status == AsyncOperationStatus.Succeeded)
             {
-                Debug.Log("Successfully downloaded all assets!");
+                Debug.Log("Sprite loaded successfully!");
             }
             else
             {
-                Debug.LogError("Failed to download all assets ;__;");
+                Debug.LogError("The sprite didn't load good ;__;");
             }
         };
 
-        Addressables.LoadAssetsAsync<Sprite>(
-            new List<string>() {
-                "adventurer-attack1-00",
-                "adventurer-attack1-00",
-                "adventurer-attack1-00",
-                "adventurer-attack1-00",
-                "adventurer-attack1-00",
-            },
-            null,
-            Addressables.MergeMode.Union)
-            .Completed += handle =>
+        Addressables.LoadAssetAsync<GameObject>("Attack1-00").Completed += handle =>
+        {
+            if (handle.Status == AsyncOperationStatus.Succeeded)
             {
-                if (handle.Status == AsyncOperationStatus.Succeeded)
-                {
-                    Debug.Log("Successfully loaded those sprites");
-                }
-                else
-                {
-                    Debug.LogError("The sprites didn't load good ;__;");
-                }
-            };
+                Debug.Log("Prefab loaded successfully!");
+            }
+            else
+            {
+                Debug.LogError("The prefab didn't load good ;__;");
+            }
+        };
     }
 }
