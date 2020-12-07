@@ -18,7 +18,7 @@ MonoBehaviour:
   m_GUID: 93af7ff9f52dbc846ad9c58f8173231b
   m_SerializeEntries:
   - m_GUID: 01d7602aa504c584299dac6af0bba326
-    m_Address: CancelLoadTest
+    m_Address: SceneAsset
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 102900000, guid: 01d7602aa504c584299dac6af0bba326, type: 3}

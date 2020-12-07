@@ -12,10 +12,10 @@ namespace AddressablesTests
         public static string[] TestCases => new string[]
         {
             // Scene asset.
-            "CancelLoadTest",
+            "SceneAsset",
 
             // Asset in `Resources`, referenced by address.
-            "TestPrefab",
+            "PrefabInResources",
 
             // Asset in `Resources`, referenced by GUID.
             "cb8d7e174dbc6fd4dbb7605dfcfb1e3b",
@@ -31,7 +31,7 @@ namespace AddressablesTests
         {
             var handle = Addressables.GetDownloadSizeAsync(address);
             yield return handle;
-            Assert.AreEqual(AsyncOperationStatus.Succeeded, handle.Status, handle.OperationException.ToString());
+            Assert.AreEqual(AsyncOperationStatus.Succeeded, handle.Status, handle.OperationException?.ToString());
         }
 
         [UnityTest]
@@ -44,7 +44,7 @@ namespace AddressablesTests
 
             var handle = Addressables.GetDownloadSizeAsync(allKeys);
             yield return handle;
-            Assert.AreEqual(AsyncOperationStatus.Succeeded, handle.Status, handle.OperationException.ToString());
+            Assert.AreEqual(AsyncOperationStatus.Succeeded, handle.Status, handle.OperationException?.ToString());
         }
     }
 }
